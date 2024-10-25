@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio PHP Conversor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+    <main>
+        <h1>Conversor de Moedas</h1>
+        <div style="display: flex; justify-content: center;">
+            <p>Valor do dolar <span style="color: red; font-weight: 800; text-align: center;">U$ 5,70</span> </p>
+
+        </div>
+        <form action="conversao.php" method="GET">
+            <label for="din">Informe o valor em reais para ser convertido?</label>
+            <input type="number" name="din" id="iddin" step="0.01" required>
+            <input type="submit" value="Converter">
+        </form>
+    </main>
+</body>
+
+
+
+</html>
